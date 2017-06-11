@@ -1,0 +1,17 @@
+#quote {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:50em;
+    height:24em;
+    margin-top: -12em; /*set to a negative number 1/2 of your height*/
+    margin-left: -25em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+button {
+  position: relative;
+  top: 85%;
+  left: 85%;
+  background-color: #f3f3f3;
+}
