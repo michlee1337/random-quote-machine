@@ -10,8 +10,13 @@
     background-color: #f3f3f3;
 }
 button {
-  position: relative;
-  top: 85%;
-  left: 85%;
-  background-color: #f3f3f3;
+  position:absolute;
+  top: 92%;
+  left: 74%;
+  width:10em;
+  height:2em;
+}
+
+#quote p {
+  padding-top: 25%;
 }
