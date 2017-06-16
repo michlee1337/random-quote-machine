@@ -1,10 +1,6 @@
 html {
-  background-image: url(domo.jpg);
-  height: 60%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  }
+  background-color: black;
+}
 
 #quote {
     position:absolute;
@@ -12,22 +8,28 @@ html {
     left: 50%;
     width:50em;
     height:24em;
-    margin-top: -20em; /*set to a negative number 1/2 of your height*/
+    margin-top: -12em; /*set to a negative number 1/2 of your height*/
     margin-left: -25em; /*set to a negative number 1/2 of your width*/
-    margin: none;
+    border: 5px solid white;
 }
 button {
-  position:absolute;
-  top: 92%;
-  left: 74%;
+  position: absolute;
+  font-weight: 700;
+  top: 50%;
+  left: 50%;
   width:10em;
-  height:2em;
+  height:5em;
+  margin-top: 9.5em;
+  margin-left: -5em;
+  background-color: white;
+  border: none;
+
 }
 
 #quote p {
   color: #fff;
   font-size: 30px;
-  padding-top: 25%;
+  padding-top: 10%;
 }
 
 #quote p > i {
