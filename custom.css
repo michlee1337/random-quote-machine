@@ -1,13 +1,20 @@
+html {
+  background-image: url(domo.jpg);
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
 #quote {
     position:absolute;
     top: 50%;
     left: 50%;
     width:50em;
     height:24em;
-    margin-top: -12em; /*set to a negative number 1/2 of your height*/
+    margin-top: -20em; /*set to a negative number 1/2 of your height*/
     margin-left: -25em; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
+    margin: none;
 }
 button {
   position:absolute;
@@ -18,5 +25,12 @@ button {
 }
 
 #quote p {
+  color: #fff;
+  font-size: 30px;
   padding-top: 25%;
+}
+
+#quote p > i {
+  font-weight: 300;
+  font-size: 25px;
 }
